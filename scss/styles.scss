@@ -6,16 +6,16 @@ $grey: rgb(242, 242, 242);
 // FONT DECLARATIONS
 @font-face {
     font-family: 'sofiasans';
-    src: url('docs/assets/fonts/sofia-sans/sofiasans-medium.woff2') format('woff2'),
-         url('docs/assets/fonts/sofia-sans/sofiasans-medium.woff') format('woff');
+    src: url('../docs/assets/fonts/sofia-sans/sofiasans-medium.woff2') format('woff2'),
+         url('../docs/assets/fonts/sofia-sans/sofiasans-medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sofiasans';
-    src: url('docs/assets/fonts/sofia-sans/sofiasans-light.woff2') format('woff2'),
-         url('docs/assets/fonts/sofia-sans/sofiasans-light.woff') format('woff');
+    src: url('../docs/assets/fonts/sofia-sans/sofiasans-light.woff2') format('woff2'),
+         url('../docs/assets/fonts/sofia-sans/sofiasans-light.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
@@ -66,9 +66,6 @@ section {
             transform: scale(110%);
             // filter: drop-shadow(5px 5px 22px rgba(0, 0, 0, 0.3));
         }
-
-        
-        
     }
 
     img {
