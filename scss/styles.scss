@@ -1,0 +1,73 @@
+// COLOR VARIABLES
+$plum: #812a80;
+$disco: #9f1f64;
+$grey: rgb(242, 242, 242);
+
+// FONT DECLARATIONS
+@font-face {
+    font-family: 'sofiasans';
+    src: url('../assets/fonts/sofia-sans/sofiasans-medium.woff2') format('woff2'),
+         url('../assets/fonts/sofia-sans/sofiasans-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofiasans';
+    src: url('../assets/fonts/sofia-sans/sofiasans-light.woff2') format('woff2'),
+         url('../assets/fonts/sofia-sans/sofiasans-light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+// STYLES
+html {
+    // background-color: $grey;
+}
+
+body {
+    max-width: 1600px;
+    margin: auto !important;
+    background-color: $grey !important;
+}
+
+section {
+    background-color: $grey;
+}
+
+.surgeROI {
+    font-family: 'sofiasans';
+    background: linear-gradient(50deg, $plum 10%, $disco 100%);
+}
+
+.tritonCanada {
+    font-family:'Montserrat';
+    background: #1c3154 !important;
+}
+
+// BOOTSTRAP OVERRIDES
+.navbar {
+    background-color: $grey;
+}
+
+.card {
+    min-height: 250px !important;
+    transition: all 0.4s;
+
+    &:hover {
+        box-shadow: none !important;
+        transition: all 0.4s;
+
+        img {
+            transition: transform 1s;
+            transform: scale(110%);
+        }
+        
+    }
+
+    img {
+        transition: transform 1s;
+    }
+}
