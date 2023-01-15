@@ -6,16 +6,16 @@ $grey: rgb(242, 242, 242);
 // FONT DECLARATIONS
 @font-face {
     font-family: 'sofiasans';
-    src: url('../docs/assets/fonts/sofia-sans/sofiasans-medium.woff2') format('woff2'),
-         url('../docs/assets/fonts/sofia-sans/sofiasans-medium.woff') format('woff');
+    src: url('sofiasans-medium.woff2') format('woff2'),
+         url('sofiasans-medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sofiasans';
-    src: url('../docs/assets/fonts/sofia-sans/sofiasans-light.woff2') format('woff2'),
-         url('../docs/assets/fonts/sofia-sans/sofiasans-light.woff') format('woff');
+    src: url('sofiasans-light.woff2') format('woff2'),
+         url('sofiasans-light.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
@@ -23,10 +23,6 @@ $grey: rgb(242, 242, 242);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 // STYLES
-html {
-    // background-color: $grey;
-}
-
 body {
     max-width: 1600px;
     margin: auto !important;
