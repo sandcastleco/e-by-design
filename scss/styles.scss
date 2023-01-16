@@ -21,16 +21,20 @@ $grey: rgb(242, 242, 242);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
 
 // STYLES
 body {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: auto !important;
     background-color: $grey !important;
+    
 }
 
 section {
     background-color: $grey;
+    font-family: 'Outfit';
 }
 
 .surgeROI {
@@ -43,22 +47,27 @@ section {
     background: #1c3154 !important;
 }
 
+.entegrity {
+    background: linear-gradient(60deg, steelblue 5%, cadetblue 100%);
+    // background: steelblue !important;
+}
+
 // BOOTSTRAP OVERRIDES
 .navbar {
     background-color: $grey;
 }
 
 .card {
-    min-height: 250px !important;
+    min-height: 260px !important;
     transition: all 0.4s, filter 0.4s;
 
     &:hover {
-        box-shadow: 0 1rem 3rem rgba(0,0,0,.3) !important;
-        transition: all 1s;
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.25) !important;
+        transition: all 0.8s;
         transform: scale(103%);
 
         img {
-            transition: transform 1s, filter 1s;
+            transition: transform 0.8s, filter 0.8s;
             transform: scale(110%);
             // filter: drop-shadow(5px 5px 22px rgba(0, 0, 0, 0.3));
         }
