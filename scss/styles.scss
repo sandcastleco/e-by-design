@@ -1,26 +1,10 @@
 // COLOR VARIABLES
 $plum: #812a80;
 $disco: #9f1f64;
+$pool: #009ee5;
 $grey: rgb(242, 242, 242);
 
-// FONT DECLARATIONS
-@font-face {
-    font-family: 'sofiasans';
-    src: url('sofiasans-medium.woff2') format('woff2'),
-         url('sofiasans-medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sofiasans';
-    src: url('sofiasans-light.woff2') format('woff2'),
-         url('sofiasans-light.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
 
 
@@ -29,7 +13,10 @@ body {
     max-width: 1400px;
     margin: auto !important;
     background-color: $grey !important;
-    
+}
+
+li {
+    margin-bottom: 1rem;
 }
 
 section {
@@ -38,8 +25,12 @@ section {
 }
 
 .surgeROI {
-    font-family: 'sofiasans';
-    background: linear-gradient(50deg, $plum 10%, $disco 100%);
+    font-family: niveau-grotesk, sans-serif;
+    background: linear-gradient(40deg, $pool 0%, $disco 80%);
+
+    h3 {
+        font-family: brevia, sans-serif;
+    }
 }
 
 .tritonCanada {
