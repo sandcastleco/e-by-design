@@ -4,9 +4,6 @@ $disco: #9f1f64;
 $pool: #009ee5;
 $grey: rgb(242, 242, 242);
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
-
 
 // STYLES
 body {
@@ -25,16 +22,21 @@ section {
 }
 
 .surgeROI {
-    font-family: niveau-grotesk, sans-serif;
+    font-family: 'niveau-grotesk', sans-serif;
+    -moz-font-feature-settings: "salt";
+    -webkit-font-feature-settings: "salt";
+    font-feature-settings: "salt";
     background: linear-gradient(40deg, $pool 0%, $disco 80%);
 
     h3 {
         font-family: brevia, sans-serif;
+        font-weight: 500;
+        font-style: italic;
     }
 }
 
 .tritonCanada {
-    font-family:'Montserrat';
+    font-family: 'Montserrat';
     background: #1c3154 !important;
 }
 
