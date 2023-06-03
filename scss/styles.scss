@@ -45,6 +45,10 @@ section {
     // background: steelblue !important;
 }
 
+.entegrityImg {
+    filter: invert(100%) saturate(100%) brightness(20%) contrast(100%);
+}
+
 // BOOTSTRAP OVERRIDES
 .navbar {
     background-color: $grey;
@@ -52,15 +56,16 @@ section {
 
 .card {
     min-height: 260px !important;
-    transition: all 0.4s, filter 0.4s;
+    transition: all 0.4s;
+    box-shadow: 0;
 
     &:hover {
-        box-shadow: 0 1rem 3rem rgba(0,0,0,.25) !important;
+        // box-shadow: 0 1rem 3rem rgba(0,0,0,.25) !important;
         transition: all 0.8s;
         transform: scale(103%);
 
         img {
-            transition: transform 0.8s, filter 0.8s;
+            transition: all 0.8s;
             transform: scale(110%);
             // filter: drop-shadow(5px 5px 22px rgba(0, 0, 0, 0.3));
         }
